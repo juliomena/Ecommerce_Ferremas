@@ -1,6 +1,3 @@
-# Ecommerce_Ferremas
-Proyecto de Integración de Plataformas
-
 # CREACION DE BASE DE DATOS
 CREATE DATABASE ferremas_db;
 USE ferremas_db;
@@ -78,9 +75,10 @@ INSERT INTO Carrito (Fecha_creacion, Cliente_id_cliente) VALUES
 ('2025-05-22', 3);
 
 INSERT INTO Producto (Nombre, Descripcion, Precio, Stock) VALUES
-('Laptop', 'Laptop ultradelgada con procesador i7', 1200000, 10),
-('Smartphone', 'Celular gama alta con cámara de 108MP', 850000, 15),
-('Audífonos', 'Audífonos inalámbricos con cancelación de ruido', 200000, 20);
+('Taladro', 'Taladro Percutor Inalámbrico 13 mm bateria 18 V ', 150000, 10),
+('Pala', 'Pala punta recta de jardin', 12000, 15),
+('Sierra', 'Sierra circular eléctrica 7 1/4" 1300W', 45000, 20),
+('Disco de sierra', 'Disco de sierra circular 7 1/4" 60 dientes" 1300W', 22000, 40);
 
 INSERT INTO Categoria (Nombre, Descripcion, Producto_id_producto) VALUES
 ('Electrónica', 'Productos electrónicos de última generación', 1),
